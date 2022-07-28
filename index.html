@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Super Website</title>
+    <title>Circle Homepage</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -24,17 +24,19 @@
                 <a href="#services">Services</a>
             </li>
         </ul>
-        <button class="btn blue-btn">Contact Us</button>
+        <div class="hide-resp">
+            <a class="btn blue-btn" href="/contact-page.html">Contact Us</a>
+        </div>
     </nav>
     <header class="hero centered-div">
-        <div class="hero-section" id="Home">
+        <div class="hero-section" id="home">
             <div>
                 <h1>Empower your business with stunning design!</h1>
-                <p>Circle is a digital design and development studio. We design and develop astonishing websites and
+                <p class="hero-text">Circle is a digital design and development studio. We design and develop astonishing websites and
                     mobile apps.</p>
-                <div class="hero-btns">
-                    <button class="btn blue-btn">Get in touch</button>
-                    <button class="btn blank-btn">See our work</button>
+                <div>
+                    <a class="btn blue-btn" href="/contact-page.html">Get in touch</a>
+                    <a class="btn blank-btn" href="/project-page.html">See our work</a>
                 </div>
             </div>
         </div>
@@ -59,7 +61,7 @@
     <section id="projects" class="centered-div">
         <h3>Recent Projects</h3>
         <div class="grid-tarjeta">
-            <article class="tarjeta">
+            <article class="tarjeta shadow">
                 <img src="Assets/projects-section/1.jpg">
                 <div class="card-content">
                     <div class="card-text">
@@ -69,7 +71,7 @@
                     <a href="">Learn More</a>
                 </div>
             </article>
-            <article class="tarjeta">
+            <article class="tarjeta shadow">
                 <img src="Assets/projects-section/2.jpg">
                 <div class="card-content">
                     <div class="card-text">
@@ -79,7 +81,7 @@
                     <a href="">Learn More</a>
                 </div>
             </article>
-            <article class="tarjeta">
+            <article class="tarjeta shadow">
                 <img src="Assets/projects-section/3.jpg">
                 <div class="card-content">
                     <div class="card-text">
@@ -115,7 +117,7 @@
     <section id="services" class="centered-div">
         <h3>Our Services</h3>
         <div class="grid-tarjeta">
-            <article class="tarjeta">                
+            <article class="tarjeta shadow">                
                 <div class="card-content">
                     <div class="blue-round-icon">
                         <img src="Assets/services-section/icons/1.svg">
@@ -127,7 +129,7 @@
                     <a href="">Learn More</a>
                 </div>
             </article>
-            <article class="tarjeta">                
+            <article class="tarjeta shadow">                
                 <div class="card-content">
                     <div class="blue-round-icon">
                         <img src="Assets/services-section/icons/2.svg">
@@ -139,7 +141,7 @@
                     <a href="">Learn More</a>
                 </div>
             </article>
-            <article class="tarjeta">
+            <article class="tarjeta shadow">
                 <div class="card-content">
                     <div class="blue-round-icon">
                         <img src="Assets/services-section/icons/3.svg">
@@ -152,6 +154,15 @@
                 </div>
             </article>
         </div>
+    </section>
+    <section class="contact">
+            <h3>Do you have any questions?</h3>
+            <p>Let us help you</p>
+            <form action="/some-url" mathod="post">
+                <label class="email-icon" for="email"><img src="Assets/newsletter/icon/mail.svg"></label>
+                <input type="email" id="email" placeholder="Enter your email" class="email-input">
+                <button class="email-btn blue-btn">Subscribe </button>
+            </form>
     </section>
     <footer class="centered-div">
         <div>
