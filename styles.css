@@ -53,9 +53,6 @@ nav {
     flex-direction: row;
     padding: 2em 2em 1em 2em;
     align-items: center;
-    max-width: 1164px;
-    margin-right: auto;
-    margin-left: auto;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -81,11 +78,7 @@ nav>ul>li>a {
     color: #6B708D;
 }
 
-nav>ul>li>a:hover {
-    color: #072AC8;
-}
-
-
+nav>ul>li>a:hover, 
 nav>ul>li>a:active {
     color: #072AC8;
 }
