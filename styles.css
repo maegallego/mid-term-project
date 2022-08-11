@@ -84,7 +84,7 @@ nav>ul>li>a:active {
 }
 
 .btn {
-    padding: 15px 33px;
+    padding: 10px 20px;
     border-style: none;
     text-decoration: none;
     border: 1px solid;
@@ -373,7 +373,7 @@ h3 {
 .contact{
     margin:60px;
     background-color: #FFC600;
-    padding:5em;
+    padding:2em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -617,7 +617,8 @@ textarea:focus-visible {
         border-bottom: 1px solid #6b718d;
     }
 
-    .project-header > p, .project-header > .subtitle {
+    .project-header > p, 
+    .project-header > .subtitle {
         padding: 0px 2em;
     }
 
